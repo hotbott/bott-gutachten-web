@@ -1,10 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700);
-
 /* ----------------------------------------------------------------------------------- */
 /* CSS Reset & Clear
 /*----------------------------------------------------------------------------------- */
-
 html {
     overflow-x: hidden !important;
 }
@@ -36,6 +32,13 @@ a:focus {
 
 /* Global styles
 ================================================== */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v22-latin-regular.woff2') format('woff2');
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
